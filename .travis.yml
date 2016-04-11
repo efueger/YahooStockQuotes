@@ -12,10 +12,11 @@ before_script:
   - php composer.phar install -n
 
 after_script:
-  - phpunit --coverage-clover build/logs/clover.xml
+  - vendor/bin/test-reporter
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
 
 addons:
-    CODECLIMATE_REPO_TOKEN = 98936fbdc3e3af296fee3ac4478154e745ea987d820d6762462fc7af3c8b5700 ./vendor/bin/test-reporter
+  code_climate:
+    repo_token: 98936fbdc3e3af296fee3ac4478154e745ea987d820d6762462fc7af3c8b5700 ./vendor/bin/test-reporter
