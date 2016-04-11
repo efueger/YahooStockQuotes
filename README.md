@@ -1,4 +1,4 @@
-#another test with /# in the branch name
+#another test with / but no bang in the branch name
 
 
 # YahooStockQuotes
