@@ -1,4 +1,4 @@
-#change
+#change for master
 
 # YahooStockQuotes
 Yahoo Stock Quotes in PHP
