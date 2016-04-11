@@ -1,4 +1,4 @@
-#change 3
+#another change 3 for test-with-no-bang branch
 
 # YahooStockQuotes
 Yahoo Stock Quotes in PHP
