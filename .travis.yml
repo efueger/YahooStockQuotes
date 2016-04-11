@@ -18,5 +18,4 @@ after_success:
   - bash <(curl -s https://codecov.io/bash)
 
 addons:
-    code_climate:
-        repo_token: bbfdb645b94f06594142fc420eaf1f35e31e41532e075cbee313cd2287817f93
+    CODECLIMATE_REPO_TOKEN = 98936fbdc3e3af296fee3ac4478154e745ea987d820d6762462fc7af3c8b5700 ./vendor/bin/test-reporter
